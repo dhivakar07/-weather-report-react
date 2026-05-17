@@ -25,7 +25,7 @@ function Navbar() {
       setweather(response.data);
     } catch (error) {
       console.error("Error fetching weather:", error);
-      alert("Enter the city name correctly");
+      alert("City not found");
     }
   };
   const fetchForecast = async (cityName) => {
@@ -54,6 +54,10 @@ function Navbar() {
   }, []);
 
   const handleSearch = () => {
+    if (city.trim() === "") {
+      alert("Please enter city name");
+      return;
+    }
     fetchWeather(city);
     fetchForecast(city);
     setcity("");
