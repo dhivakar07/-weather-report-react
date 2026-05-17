@@ -3,6 +3,7 @@ import axios from "axios";
 import WeatherBanner from "./WeatherBanner";
 import Card from "./Card";
 import Weekly from "./Weekly";
+import HourlyForecast from "./HourlyForecast";
 
 function Navbar() {
   const [city, setcity] = useState("");
@@ -97,7 +98,12 @@ function Navbar() {
           <Card weather={weather} />
         </>
       )}
-      {forecast && <Weekly forecast={forecast} />}
+      {forecast && (
+        <>
+          <Weekly forecast={forecast} />
+          <HourlyForecast />
+        </>
+      )}
     </>
   );
 }
