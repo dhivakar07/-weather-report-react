@@ -1,16 +1,77 @@
-# React + Vite
+# 🌦️ Weather Report App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive Weather Report Application built using React.js that allows users to search and view real-time weather information for any city using the OpenWeatherMap API.
 
-Currently, two official plugins are available:
+## 🚀 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+🔗 Live Site: https://weather-report-react-one.vercel.app/
 
-## React Compiler
+## 📂 GitHub Repository
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+🔗 GitHub: https://github.com/dhivakar07/-weather-report-react
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📌 Features
+
+- 🔍 Search weather by city name
+- 🌡️ Real-time temperature display
+- ☁️ Weather condition details
+- 💨 Wind speed information
+- 💧 Humidity details
+- 📅 5-Day weather forecast
+- 📱 Responsive design for mobile, tablet, and desktop
+- ⚠️ Basic error handling for invalid city names
+- 🎨 Clean and modern UI
+
+---
+
+## 🛠️ Technologies Used
+
+- React.js
+- Axios
+- CSS3
+- OpenWeatherMap API
+- Vite
+
+---
+
+## 🔑 API Setup
+
+1. Create a free account at OpenWeatherMap
+2. Generate your API key
+3. Add your API key inside the project
+
+---
+
+## 🎯 Project Outcome
+
+This project helped in learning:
+
+- API integration using Axios
+- React Hooks (useState, useEffect)
+- Component-based architecture
+- Responsive UI design
+- Error handling in React applications
+
+---
+
+## 🙌 Acknowledgements
+
+- OpenWeatherMap API
+- React Documentation
+- Vite
+
+---
+
+## 👨‍💻 Author
+
+Dhivakar
+
+LinkedIn: www.linkedin.com/in/dhivakar7
+
+---
+
+```
+
+```
